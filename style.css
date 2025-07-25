@@ -49,9 +49,9 @@ nav ul li{
   justify-content: space-between;
 
 }
-.nav-flex{
+/* .nav-flex{
   display: flex;
-}
+} */
 
 nav ul{
   display: flex;
@@ -326,3 +326,28 @@ input:focus{
   padding-left: 20px;  
 }
 
+
+@media screen and (max-width:576px) {
+.hero-section, .nav-link,nav ul {
+  flex-direction: column;
+
+}
+.our-plants{
+  grid-template-columns: repeat(1, 1fr);
+  }
+
+  .plants-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+.plants-description{
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+
+
+
+}
