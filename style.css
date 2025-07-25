@@ -390,9 +390,34 @@ input:focus{
   font-size: 40px;
   }
 
+  .flower-section{
+    flex-direction: column;
+    
+  }
+.badge{
+  display: none;
+}
 
 
+  .optional{
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .optional-pic, .di1, .di2{
+    width: 540px;
+  }
 
+  .optional-pic{
+      margin-right: 0;
+  }
+
+  .deal-section{
+    margin-top: -110px;
+  }
+
+  .ds p{
+    width: 540px;
+  }
 
 
 
