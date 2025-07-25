@@ -336,22 +336,22 @@ input:focus{
 
 @media screen and (max-width:576px){
   .nav-link{
-    width: 400px;
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
   }
   .home, #shop, #about-us{
     display: none;
   }
   .nav-logo{
-    max-width: 60px;
+    max-width: 70px;
     height: 35px;
+    padding-bottom: 20px;
     
   }
   .cart{
     max-width: 90px;
-    align-items: center;
     padding-top: 10px;
     margin: 0 auto;
   }
@@ -419,10 +419,43 @@ input:focus{
     width: 540px;
   }
 
+  .subscribe-section{
+    display: none;
+  }
+
+  .tooter-sub-menu{
+    flex-direction: column;
+    margin: 0 auto;
+
+  }
+
+  ..footer ul li{
+    width: 560px;
+    padding-left: 10px;
+  padding-top:10px ;
 
 
+  }
+
+  .footer ul li a{
+    width: 560px;
+
+    padding-left: 10px;
+  }
+  .footer-menu2, .footer-menu1, .social-logo, .footer-logo{
+    width: 560px;
+  }
+
+  .social-logo{
+      padding-top: 10px;
+      padding-left: 45px;  
 
 
+  }
+  #fp{
+    width: 300px;
+    padding-left: 20px;
+  }
 
 
 }
